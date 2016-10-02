@@ -5,6 +5,12 @@ img.logo_def {
 img.logo_retina {
 	display: none;
 }
+.logo_desktop {
+	display: inline-block;
+}
+.logo_mobile {
+	display: none;
+}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3),
        only screen and (-o-min-device-pixel-ratio: 13/10),
        only screen and (min-resolution: 120dpi) {
@@ -389,6 +395,12 @@ img.logo_retina {
 }
 
 @media only screen and (max-width: 760px) {
+	.logo_desktop {
+		display: none;
+	}
+	.logo_mobile {
+		display: inline-block;
+	}
 	.content_bg {
 		display:none;
 	}

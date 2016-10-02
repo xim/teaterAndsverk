@@ -288,6 +288,9 @@ div.logo {
 .logo_def,.logo_retina {
   width: 180px;
 }
+.logo_mobile .logo_def, .logo_mobile .logo_retina {
+  width: 220px;
+}
 
 .contentarea > ul {
   margin: 13px 0;
