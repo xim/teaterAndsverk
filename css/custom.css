@@ -1,0 +1,354 @@
+/* Theme Options */
+
+/*
+	--//-- 1. Color Options --//--
+
+	- Theme color - 217e8f;
+	- Main text color - 666666;
+	- Heading color - 252727;
+	- Page title heading color - 252727;
+	- Footer text color - 666666;
+	- Main menu text color - 333333;
+	- Submenu text color - a2a5a5;
+
+	--//-- 2. Theme Fonts --//--
+
+	- Main font - Amethysta;
+	- Headers font - Amethysta;
+
+*/
+
+
+/* Default background color */
+body {
+	background:#e9ecec;
+}
+
+
+/* main text color */
+p, td, div,
+a:hover,
+a:hover span,
+.contact_info_item .contact_info_text a,
+.listing_meta span a,
+.prev_next_links a,
+.prev_next_links a:before,
+.prev_next_links a:after,
+.thiscommentbody a,
+.thiscommentbody span,
+.pagerblock li a,
+.optionset li a,
+.search_form:before,
+.widget_nav_menu ul li a,
+.widget_archive ul li a,
+.widget_pages ul li a,
+.widget_categories ul li a,
+.widget_recent_entries ul li a,
+.widget_nav_menu ul li a:hover,
+.widget_archive ul li a:hover,
+.widget_pages ul li a:hover,
+.widget_categories ul li a:hover,
+.widget_recent_entries ul li a:hover,
+.widget_nav_menu ul li a:hover:before,
+.widget_archive ul li a:hover:before,
+.widget_pages ul li a:hover:before,
+.widget_categories ul li a:hover:before,
+.widget_recent_entries ul li a:hover:before,
+.widget_nav_menu ul li a:before,
+.widget_archive ul li a:before,
+.widget_pages ul li a:before,
+.widget_categories ul li a:before,
+.widget_recent_entries ul li a:before,
+.widget_posts li a,
+.widget_posts li a:before,
+.widget_tag_cloud a,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+.widget_meta a,
+.widget_recent_comments a {
+	color: #333333;
+}
+.featured_items_meta a:hover,
+.featured_item_content a:hover {
+	color: #333333!important;
+}
+footer, footer .copyright,
+section.socials li a:before,
+section.socials li a:hover:before {
+	color: #333333;
+}
+
+
+/* header color style */
+.main_header ul.menu > li > a,
+.main_header ul.menu > li > a span {
+	color:#333333;
+}
+.main_header ul.menu > li > a > span:before {
+	background-color:#c1c7c9;
+}
+.main_header ul.menu > li > ul.sub-menu > li,
+.mobile_menu_wrapper {
+	background-color:#252727;
+}
+.main_header ul.menu > li > ul.sub-menu > li > a,
+.main_header ul.menu > li > ul.sub-menu > li > a span,
+.main_header ul.menu > li > ul.sub-menu > li > a:hover span,
+.mobile_menu_wrapper a,
+.mobile_menu_wrapper a span {
+	color:#a2a5a5;
+}
+.main_header ul.menu > li > ul.sub-menu > li:hover > a,
+.main_header ul.menu > li > ul.sub-menu > li:hover > a span,
+.main_header ul.menu > li > ul.sub-menu > li.current-menu-item > a,
+.main_header ul.menu > li > ul.sub-menu > li.current-menu-item > a span,
+.main_header ul.menu > li > ul.sub-menu > li.current-menu-parent > a,
+.main_header ul.menu > li > ul.sub-menu > li.current-menu-parent > a span,
+.mobile_menu li.current-menu-parent > a,
+.mobile_menu li.current-menu-parent > a span,
+.mobile_menu li.current-menu-item > a,
+.mobile_menu li.current-menu-item > a span {
+	color:#ffffff;
+}
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li {
+	background-color:#363939;
+}
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li > a,
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li > a span {
+	color:#a2a5a5;
+}
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li:hover > a,
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li:hover > a span,
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li.current-menu-item > a,
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li.current-menu-item > a span,
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li.current-menu-parent > a,
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li.current-menu-parent > a span {
+	color:#ffffff;
+}
+
+
+/* Selection background */
+::selection {background:#217e8f;
+}
+::-moz-selection {background:#217e8f;
+}
+
+
+/* user custom color */
+.highlighted_colored,
+.shortcode_button.btn_type5,
+.most_popular .price_item_title,
+.shortcode_button.btn_type1:hover,
+.shortcode_button.btn_type2:hover,
+.shortcode_button.btn_type3:hover,
+.shortcode_button.btn_type4:hover,
+.nivo-directionNav a:hover,
+.most_popular .price_item_btn a,
+.price_item_btn a:hover {
+	background-color:#217e8f;
+}
+.ls-nav-prev:hover,
+.ls-nav-next:hover,
+.tparrows:hover {
+	background:#217e8f!important;
+}
+.gallery_item_wrapper .gallery_fadder,
+.featured_items .img_block .featured_item_fadder,
+.widget_flickr .flickr_badge_image a .flickr_fadder {
+	background:rgba(40,152,172,0);
+}
+
+.gallery_item_wrapper:hover .gallery_fadder,
+.featured_items .img_block:hover .featured_item_fadder,
+.widget_flickr .flickr_badge_image a:hover .flickr_fadder {
+	background:rgba(40,152,172,0.95);
+}
+a,
+blockquote.shortcode_blockquote.type2 .blockquote_wrapper:before,
+.shortcode_iconbox a:hover p,
+.shortcode_iconbox a:hover h5.iconbox_title,
+.featured_items_title a:hover,
+.shortcode_tab_item_title:hover,
+.most_popular .price_item_cost h3,
+.most_popular .price_item_cost h6,
+.portfolio_block.columns1 h2 a:hover,
+.pagerblock li a:hover,
+.optionset li a:hover,
+.optionset li.selected a,
+.fw a:hover h3,
+h2.blogpost_title a:hover,
+.listing_meta span a:hover,
+.widget_nav_menu ul li a:hover,
+.widget_archive ul li a:hover,
+.widget_pages ul li a:hover,
+.widget_categories ul li a:hover,
+.widget_recent_entries ul li a:hover,
+.widget_nav_menu ul li a:hover:before,
+.widget_archive ul li a:hover:before,
+.widget_pages ul li a:hover:before,
+.widget_categories ul li a:hover:before,
+.widget_recent_entries ul li a:hover:before,
+.widget_tag_cloud a:hover,
+.widget_posts li a:hover:before,
+.widget_posts li a:hover,
+.blogpost_share a:hover,
+.prev_next_links a:hover,
+.prev_next_links a:hover:before,
+.prev_next_links a:hover:after,
+.thiscommentbody a:hover,
+.contact_info_item .contact_info_text a:hover,
+.widget_meta a:hover,
+.widget_meta a:hover:before,
+.widget_recent_comments a:hover {
+	color:#217e8f;
+}
+.module_team .teamlink:hover,
+.module_team .teamlink:hover i {
+	color:#217e8f!important;
+}
+.main_header.short_header .menu > li > a > span:before {
+	border-right-color:rgba(40,152,172,0.85)!important;
+}
+blockquote.shortcode_blockquote.type5 .blockquote_wrapper,
+.widget_tag_cloud a:hover {
+	border-color:#217e8f;
+}
+
+
+/* Typography */
+*,
+.optionset li:before,
+.pagerblock li:before,
+.main_header .sub-menu span {
+	font-family:Amethysta;
+	font-weight:400;
+}
+p, td, div,
+blockquote p {
+	font-size:14px;
+	line-height:25px;
+}
+h1, h2, h3, h4, h5, h6,
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-family: Amethysta;
+	-moz-osx-font-smoothing:grayscale;
+	-webkit-font-smoothing:antialiased;
+	text-decoration:none!important;
+	padding:0;
+	color:#252727;
+}
+.iconbox_header .ico i {
+	color:#252727;
+}
+.title {
+	color:#252727;
+}
+h1, h1 span, h1 a {
+	font-size:34px;
+	line-height:36px;
+}
+h2, h2 span, h2 a {
+	font-size:28px;
+	line-height:30px;
+}
+h3, h3 span, h3 a {
+	font-size:22px;
+	line-height:24px;
+}
+h4, h4 span, h4 a {
+	font-size:20px;
+	line-height:22px;
+}
+h5, h5 span, h5 a {
+	font-size:17px;
+	line-height:19px;
+}
+h6, h6 span, h6 a {
+	font-size:15px;
+	line-height:17px;
+}
+.dropcap.type2,
+.dropcap.type5 {
+	color:#217e8f;
+}
+.module_cont hr.type3 {
+	border-color:#217e8f;
+}
+
+/*! Swipebox v1.3.0 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */html.swipebox-html.swipebox-touch{overflow:hidden!important}#swipebox-overlay img{border:none!important}#swipebox-overlay{width:100%;height:100%;position:fixed;top:0;left:0;z-index:99999!important;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}#swipebox-container{position:relative;width:100%;height:100%}#swipebox-slider{-webkit-transition:-webkit-transform .4s ease;transition:transform .4s ease;height:100%;left:0;top:0;width:100%;white-space:nowrap;position:absolute;display:none;cursor:pointer}#swipebox-slider .slide{height:100%;width:100%;line-height:1px;text-align:center;display:inline-block}#swipebox-slider .slide:before{content:"";display:inline-block;height:50%;width:1px;margin-right:-1px}#swipebox-slider .slide .swipebox-inline-container,#swipebox-slider .slide .swipebox-video-container,#swipebox-slider .slide img{display:inline-block;max-height:100%;max-width:100%;margin:0;padding:0;width:auto;height:auto;vertical-align:middle}#swipebox-slider .slide .swipebox-video-container{background:0 0;max-width:1140px;max-height:100%;width:100%;padding:5%;-webkit-box-sizing:border-box;box-sizing:border-box}#swipebox-slider .slide .swipebox-video-container .swipebox-video{width:100%;height:0;padding-bottom:56.25%;overflow:hidden;position:relative}#swipebox-slider .slide .swipebox-video-container .swipebox-video iframe{width:100%!important;height:100%!important;position:absolute;top:0;left:0}#swipebox-slider .slide-loading{background:url(../img/loader.gif) center center no-repeat}#swipebox-bottom-bar,#swipebox-top-bar{-webkit-transition:.5s;transition:.5s;position:absolute;left:0;z-index:999;height:50px;width:100%}#swipebox-bottom-bar{bottom:-50px}#swipebox-bottom-bar.visible-bars{-webkit-transform:translate3d(0,-50px,0);transform:translate3d(0,-50px,0)}#swipebox-top-bar{top:-50px}#swipebox-top-bar.visible-bars{-webkit-transform:translate3d(0,50px,0);transform:translate3d(0,50px,0)}#swipebox-title{display:block;width:100%;text-align:center}#swipebox-close,#swipebox-next,#swipebox-prev{background-image:url(../img/icons.png);background-repeat:no-repeat;border:none!important;text-decoration:none!important;cursor:pointer;width:50px;height:50px;top:0}#swipebox-arrows{display:block;margin:0 auto;width:100%;height:50px}#swipebox-prev{background-position:-32px 13px;float:left}#swipebox-next{background-position:-78px 13px;float:right}#swipebox-close{top:0;right:0;position:absolute;z-index:9999;background-position:15px 12px}.swipebox-no-close-button #swipebox-close{display:none}#swipebox-next.disabled,#swipebox-prev.disabled{opacity:.3}.swipebox-no-touch #swipebox-overlay.rightSpring #swipebox-slider{-webkit-animation:rightSpring .3s;animation:rightSpring .3s}.swipebox-no-touch #swipebox-overlay.leftSpring #swipebox-slider{-webkit-animation:leftSpring .3s;animation:leftSpring .3s}.swipebox-touch #swipebox-container:after,.swipebox-touch #swipebox-container:before{-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-transition:all .3s ease;transition:all .3s ease;content:' ';position:absolute;z-index:999;top:0;height:100%;width:20px;opacity:0}.swipebox-touch #swipebox-container:before{left:0;-webkit-box-shadow:inset 10px 0 10px -8px #656565;box-shadow:inset 10px 0 10px -8px #656565}.swipebox-touch #swipebox-container:after{right:0;-webkit-box-shadow:inset -10px 0 10px -8px #656565;box-shadow:inset -10px 0 10px -8px #656565}.swipebox-touch #swipebox-overlay.leftSpringTouch #swipebox-container:before,.swipebox-touch #swipebox-overlay.rightSpringTouch #swipebox-container:after{opacity:1}@-webkit-keyframes rightSpring{0%{left:0}50%{left:-30px}100%{left:0}}@keyframes rightSpring{0%{left:0}50%{left:-30px}100%{left:0}}@-webkit-keyframes leftSpring{0%{left:0}50%{left:30px}100%{left:0}}@keyframes leftSpring{0%{left:0}50%{left:30px}100%{left:0}}@media screen and (min-width:800px){#swipebox-close{right:10px}#swipebox-arrows{width:92%;max-width:800px}}#swipebox-overlay{background:#0d0d0d}#swipebox-bottom-bar,#swipebox-top-bar{text-shadow:1px 1px 1px #000;background:#000;opacity:.95}#swipebox-top-bar{color:#fff!important;font-size:15px;line-height:43px;font-family:Helvetica,Arial,sans-serif}
+
+/* Truly custom stuff */
+
+div.logo {
+  position: relative;
+}
+.logo_def,.logo_retina {
+  width: 180px;
+}
+
+.contentarea > ul {
+  margin: 13px 0;
+}
+
+ul.socials_list {
+  padding: 0;
+}
+
+.nivo-caption {
+  padding-left: 75px !important;
+}
+
+.content_wrapper {
+  position: relative;
+}
+
+#blog_rss,#cv_pdf {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  display: block !important;
+}
+#blog_rss a,#cv_pdf a {
+  border-radius: 5px;
+}
+
+code, pre {
+  font-family: monospace;
+}
+
+p + h2, ul + h2, ol + h2, blockquote + h2, .blog_post_image + h2 {
+  margin-top: 1em;
+}
+p + h3, ul + h3, ol + h3, blockquote + h3, .blog_post_image + h3 {
+  margin-top: .7em;
+}
+
+input.send_btn {
+  background-color: #217e8f;
+  color: white;
+}
+
+.location, .attribution {
+  display: block;
+  padding-top: 0.5em;
+}
+
+#swipebox-title {
+  font-size: 30px;
+  line-height: 40px;
+  color: #ddd;
+}
+
+@media only screen and (max-width: 760px) {
+  .mobile-notop {
+    padding-top: 0 !important;
+  }
+}
+/*
+.contentarea {
+  /* FF reflow on opacity transition
+  overflow: visible;
+} */

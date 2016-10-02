@@ -1,0 +1,27 @@
+#!/bin/bash
+
+install -m 755 /home/source/etc/rc.local /etc
+install -m 644 /home/source/etc/default.apache_template /etc/default.apache_template
+install -m 644 /home/source/etc/ports.conf.apache_template /etc/ports.conf.apache_template
+cp /home/source/var/www/index.html /var/www/index.html
+cp -r /home/source/owncloud9/ /var/www
+chown -R www-data:www-data /var/www/owncloud9/data
+chown -R www-data:www-data /var/www/owncloud9/config
+chown -R www-data:www-data /var/www/owncloud9/apps
+apt-get --yes update
+apt-get --yes install php5-gd php5-json php5-mysql php5-curl
+apt-get --yes install php5-intl php5-mcrypt php5-imagick
+
+cp /home/source/owncloud.conf /etc/apache2/sites-available/owncloud.conf
+ln -s /etc/apache2/sites-available/owncloud.conf /etc/apache2/sites-enabled/owncloud.conf
+a2enmod rewrite
+a2enmod headers
+
+cd /var/www/owncloud9/
+# php /var/www/owncloud9/occ  maintenance:install --database "mysql" --database-name "owncloud"  --database-user "root" --database-pass "password" --admin-user "admin" --admin-pass "password"
+
+
+api_conf="/home/source/unicorn_api.conf"
+[ -e "$api_conf" ] && cp $api_conf /etc/
+
+exit 0
