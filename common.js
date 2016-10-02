@@ -74,7 +74,7 @@ function update_nav(pathname) {
 
 function ajax_load(pathname) {
   var base = "/fragment";
-  if (! pathname.match("^/blogg/"))
+  if (! pathname.match("^/posts/"))
     base += "/page";
   $('.main_wrapper').css({'opacity' : 0.1});
   $.get(base + pathname, function(data) {
