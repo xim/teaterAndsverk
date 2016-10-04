@@ -56,17 +56,81 @@
       </header>
       <div class="main_wrapper">
         <div class="content_wrapper contentarea">
-<h2>KONTAKT</h2>
-<div class="row">
-<div class="span12 pb10 module_cont">
-<hr />
+<div class="page_title_block pb10">
+  <div class="container">
+    <h1 class="title">Kontakt</h1>
+  </div>
 </div>
+
+<div style="height: 1em;" class="clear"></div>
+
+<div class="container">
+  <div class="content_block row no-sidebar">
+    <div class="fl-container span12">
+      <div class="row">
+        <div class="posts-block span12">
+          <div class="contentarea">
+            <div class="row">
+              <div class="span6 pb40 module_cont module_html">
+                <div class="bg_title"><h3>Send oss en e-post:</h3></div>
+                <div class="module_content">
+                  <div id="fields">
+  <form id="ajax-contact-form" action="https://annie2.herokuapp.com/send-epost/" method="POST">
+    <input type="text" name="name" title="Navn" placeholder="Navn"  />
+    <input type="text" name="email" title="E-post" placeholder="E-post" />
+    <input type="text" id="blappefelt" name="blappefelt" title="Skriv «blapp» her" placeholder="Skriv «blapp» her" />
+<script type="text/javascript"><!--
+var el = document.getElementById("blappefelt");
+el.style.display = "none";
+el.value = "bla" + "pp";
+--></script>
+    <input type="text" name="subject" title="Emne" placeholder="Emne" />
+    <textarea name="message" id="message"  placeholder="Melding..."></textarea>
+    <input class="send_btn" type="submit" value="Send melding">
+  </form>
 </div>
-<p>Kontaktinfo: kart, adresse, link til sosiale medier, e-post</p>
-<p>Adresse: Hovinveien 1, 0576 Oslo</p>
-<p>Facebook: https://www.facebook.com/teateraandsverk/<br />
-Instagram: @teateraandsverk</p>
-<p>E-post: teater.aandsverk@gmail.com</p>
+<div id="note"></div>
+                </div>
+              </div><!-- .module_cont -->
+              <div class="span6 pb40 module_cont module_html">
+                <div class="bg_title"><h3>Kontaktinfo:</h3></div>
+                <div class="module_content">
+                  <ul class="contact_info_list">
+<li class="contact_info_item">
+    <div class="contact_info_wrapper">
+      <span class="contact_info_icon">
+        <i class="icon-home"></i>
+      </span>
+      <div class="contact_info_text"><a href="maps.google.com/maps?q=Hovinveien+1,+0576+Oslo">Hovinveien 1, 0576 Oslo</a></div>
+    </div>
+  </li>
+  <li class="contact_info_item">
+    <div class="contact_info_wrapper">
+      <span class="contact_info_icon">
+        <i class="icon-facebook-sign"></i>
+      </span>
+      <div class="contact_info_text"><a href="https://www.facebook.com/teateraandsverk/">Facebook</a></div>
+    </div>
+  </li>
+  <li class="contact_info_item">
+    <div class="contact_info_wrapper">
+      <span class="contact_info_icon">
+        <i class="icon-instagram"></i>
+      </span>
+      <div class="contact_info_text"><a href="https://twitter.com/teateraandsverk">Instagram</a></div>
+  </li>
+</ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
 
 
         </div>
