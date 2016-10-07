@@ -355,3 +355,8 @@ input.send_btn {
   /* FF reflow on opacity transition
   overflow: visible;
 } */
+
+.module_team h6 {
+  font-size: 19px;
+  line-height: 19px;
+}
