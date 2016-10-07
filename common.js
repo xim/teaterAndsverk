@@ -72,7 +72,7 @@ function update_nav(pathname) {
       .addClass('current-menu-item');
 }
 
-function ajax_load(pathname) {
+function ajax_load(pathname, keep) {
   var base = "/fragment";
   if (! pathname.match("^/posts/"))
     base += "/page";
@@ -83,7 +83,8 @@ function ajax_load(pathname) {
     else
       $('html').attr('lang', 'no');
     render_page(data);
-    window.history.pushState(data, document.title, pathname);
+    if (keep)
+        window.history.pushState(data, document.title, pathname);
   }, "html")
   .fail(function() {
     window.location = pathname;
@@ -97,8 +98,9 @@ function user_pop(evt) {
     update_nav(location.pathname);
     $('.main_wrapper').css({'opacity' : 0});
     render_page(evt.state);
-  } else
-    ajax_load(location.pathname);
+  } else {
+    ajax_load(location.pathname, false);
+  }
 }
 
 if (canHistory)
@@ -117,7 +119,7 @@ $('body').on('click', 'a:not(.no_ajax)', function() {
   if ($(this).attr('href').match('^#'))
     return false;
 
-  ajax_load(this.pathname);
+  ajax_load(this.pathname, true);
   return false;
 });
 
