@@ -75,8 +75,13 @@ function render_page(data) {
 
 function update_nav(pathname) {
   $('nav li, .mobile_menu_wrapper li').removeClass('current-menu-item');
-  $('nav li, .mobile_menu_wrapper li').filter(function(id, el) { return el.firstElementChild.pathname == pathname; })
-      .addClass('current-menu-item');
+  $('nav li, .mobile_menu_wrapper li')
+    .filter(function(id, el) { return el.firstElementChild.pathname == pathname; })
+    .each(function() {
+      if (this.className.contains('submenu-item'))
+        this.parentNode.parentNode.className += ' current-menu-item';
+      this.className += ' current-menu-item';
+    });
 }
 
 function ajax_load(pathname, keep) {

@@ -15,6 +15,32 @@
   <div class="content_block row no-sidebar">
     <div class="fl-container span12">
       <div class="row">
+        <div class="span12 pb40 module_google_map">
+          <div class="module_content">
+            <div id="map-canvas" class="map-canvas"></div>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript">
+function initMap() {
+  var pos = {lat: 59.917085, lng: 10.780505};
+
+  var mapOptions = {
+    zoom: 13,
+    center: pos,
+    scrollwheel: false,
+  };
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  var infowindow = new google.maps.InfoWindow();
+  var marker = new google.maps.Marker({map: map, position: pos});
+  google.maps.event.addListener(marker, 'click', function() {
+    infowindow.setContent('<div><strong>Oslo teatersenter</strong><br/>Hovindveien 1, 0576 Oslo</div>');
+    infowindow.open(map, this);
+  });
+}
+      </script>
+      <script async defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyDDhkT7YkYb0ixK_rTWQ0K48BA1k_xti-Y&amp;callback=initMap"></script>
+      <div class="row">
         <div class="posts-block span12">
           <div class="contentarea">
             <div class="row">
@@ -48,7 +74,7 @@ el.value = "bla" + "pp";
       <span class="contact_info_icon">
         <i class="icon-home"></i>
       </span>
-      <div class="contact_info_text"><a href="maps.google.com/maps?q=Hovinveien+1,+0576+Oslo">Hovinveien 1, 0576 Oslo</a></div>
+      <div class="contact_info_text"><a href="https://goo.gl/maps/rcupvFtnYxA2">Hovinveien 1, 0576 Oslo</a></div>
     </div>
   </li>
   <li class="contact_info_item">
@@ -77,5 +103,12 @@ el.value = "bla" + "pp";
     </div>
     <div class="clear"></div>
   </div>
+
+<p></div><br />
+<br /></p>
+<div class="row">
+<div class="span12 pb10 module_cont">
+<hr />
+</div>
 </div>
 
