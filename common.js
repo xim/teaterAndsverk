@@ -151,7 +151,7 @@ $("body").on('submit', '#ajax-contact-form', function() {
   }
   var data = $(this).serialize();
   var target = $(this).attr('action');
-  $('#note').html('<div class="notification_ok">Sender...</div>');
+  $('#note').html('<div style="display: inline-block" class="notification_ok"><i class="fa fa-cog fa-spin fa-4x"></i> <span class="sr-only">Sender...</span></div>');
   $.post(target, data, function(ret) {
     if (ret.state == 'ok')
       $("#fields").hide();
