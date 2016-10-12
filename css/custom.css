@@ -391,3 +391,6 @@ input.send_btn {
   max-width: none !important;
   width: auto !important;
 }
+#map-canvas * {
+  line-height: normal;
+}
