@@ -105,7 +105,6 @@ function ajax_load(pathname, keep) {
 }
 
 function user_pop(evt) {
-  try { $.swipebox.close(); } catch(err) {}
   if (evt && evt.state) {
     update_nav(location.pathname);
     $('.main_wrapper').css({'opacity' : 0});
@@ -165,25 +164,6 @@ $("body").on('submit', '#ajax-contact-form', function() {
 
 $('body').on('click', '.blogpost_share a', function() {
   window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600');
-  return false;
-});
-
-$('body').on('click', '.isotope-item .swipebox', function() {
-  var slides = [];
-  var index, counter = 0;
-  var a = this;
-  $('.isotope-item:not(.isotope-hidden) .swipebox')
-    .each(function() {
-        slides.push({href: $(this).attr('href'), title: $('img', this).attr('alt')});
-        if (this == a)
-            index = counter;
-        counter += 1;
-    });
-  $.swipebox(slides, {
-      hideBarsDelay : 0,
-      initialIndexOnArray: index,
-      removeBarsOnMobile: false
-  });
   return false;
 });
 

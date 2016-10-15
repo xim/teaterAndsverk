@@ -344,12 +344,6 @@ input.send_btn {
   padding-top: 0.5em;
 }
 
-#swipebox-title {
-  font-size: 30px;
-  line-height: 40px;
-  color: #ddd;
-}
-
 @media only screen and (max-width: 760px) {
   .mobile-notop {
     padding-top: 0 !important;
