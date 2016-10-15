@@ -102,6 +102,7 @@ function ajax_load(pathname, keep) {
     window.location = pathname;
   });
   update_nav(pathname);
+  window.scrollTo(0,0);
 }
 
 function user_pop(evt) {
