@@ -107,7 +107,7 @@ function ajax_load(pathname, keep) {
 function user_pop(evt) {
   if (evt && evt.state) {
     update_nav(location.pathname);
-    $('.main_wrapper').css({'opacity' : 0});
+    $('.main_wrapper').css({'opacity':0});
     render_page(evt.state);
   } else {
     ajax_load(location.pathname, false);
