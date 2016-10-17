@@ -9,8 +9,6 @@
 <hr />
 </div>
 </div>
-<div style="height: 1em;" class="clear"></div>
-
 <div class="container">
   <div class="content_block row no-sidebar">
     <div class="fl-container span12">
@@ -23,14 +21,19 @@
       </div>
       <script type="text/javascript">
 function initMap() {
-  var pos = {lat: 59.917085, lng: 10.780505};
+  var pos = {lat: 59.917087, lng: 10.7805047};
 
-  var mapOptions = {
-    zoom: 13,
-    center: pos,
-    scrollwheel: false,
-  };
-  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  var map = new google.maps.Map(
+    document.getElementById('map-canvas'),
+    {
+      zoom: 13,
+      center: pos,
+      streetViewControl: false,
+      scrollwheel: false,
+      mapTypeControl: false,
+      styles: [{"stylers":[{"saturation":-70}]}]
+    }
+  );
   var infowindow = new google.maps.InfoWindow();
   var marker = new google.maps.Marker({map: map, position: pos});
   google.maps.event.addListener(marker, 'click', function() {
@@ -72,7 +75,7 @@ el.value = "bla" + "pp";
 <li class="contact_info_item">
     <div class="contact_info_wrapper">
       <span class="contact_info_icon">
-        <i class="icon-home"></i>
+        <i class="fa fa-home"></i>
       </span>
       <div class="contact_info_text"><a href="https://goo.gl/maps/rcupvFtnYxA2">Hovinveien 1, 0576 Oslo</a></div>
     </div>
@@ -80,7 +83,7 @@ el.value = "bla" + "pp";
   <li class="contact_info_item">
     <div class="contact_info_wrapper">
       <span class="contact_info_icon">
-        <i class="icon-facebook-sign"></i>
+        <i class="fa fa-facebook-square"></i>
       </span>
       <div class="contact_info_text"><a href="https://www.facebook.com/teateraandsverk/">Facebook</a></div>
     </div>
@@ -88,7 +91,7 @@ el.value = "bla" + "pp";
   <li class="contact_info_item">
     <div class="contact_info_wrapper">
       <span class="contact_info_icon">
-        <i class="icon-instagram"></i>
+        <i class="fa fa-instagram"></i>
       </span>
       <div class="contact_info_text"><a href="https://www.instagram.com/teateraandsverk/">Instagram</a></div>
   </li>
