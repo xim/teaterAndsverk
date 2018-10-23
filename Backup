@@ -45,7 +45,7 @@
             <li>
               <a href="/"><span>Hjem</span></a>
             </li>
-            <li class="current-menu-item">
+            <li>
               <a href="/omoss.html"><span>Om oss</span></a>
             </li>
             <li>
@@ -82,43 +82,51 @@
 <hr />
 </div>
 </div>
-<h5>
+<h5><code>Teater Åndsverk er et fritt og allsidig teaterkompani som består av skuespillere, regissører og manusforfattere med ulik bakgrunn og erfaring. Vi vil skape meningsfulle, egenproduserte åndsverk som er aktuelle for tiden vi lever i og mennesket i dag.</code></h5>
+<div class="row">
+<div class="span12 pb10 module_cont">
+<hr />
+</div>
+</div>
+<p>
 <div class="float_left" style="float: left">
 <div class="blog_post_image"><img alt="Teater Åndsverk" src="/uploads/images/Logo.jpg" style="width:300px;margin-right:1em" title="Teater Åndsverk" /></div>
-</div>
-<code>Teater Åndsverk er et teaterkompani som består av skuespillerne Kine Marie Øglend og Anne-Marie Adriansen. Vi vil skape meningsfulle, egenproduserte åndsverk som er aktuelle for tiden vi lever i og mennesket i dag.</code></h5>
+</div> Kompaniet ble startet av Kine Marie Øglend høsten 2014, med et ønske om å etablere en åpen treningsplattform og et myldrested for unge, nyutdannede skuespillere. Til å begynne med var vi så heldige å få lov til å bruke den nå nedlagte kantinen i Christian Kroghs gate 2, tidligere kjent som kantina på NISS, som øvings- og spillelokale. Takket være Velbekomme DA, Yngve Blokhus og Martin Sæther Arentz fikk Teater Åndsverk noen ben å stå på. Ved årsskifte 2015 ble det dannet et styre og Teater Åndsverk ble offisielt registrert. Etter hvert fikk vi lokaler på Oslo teatersenter på Tøyen, hvor vi har holdt til et par år.</p>
+<p><br /></p>
+<p>Vårt første <em>åndsverk</em> var en sommervisning vi laget i juni 2015. Sandra Bringsjord Pape sto for idéutviklingen og koordineringen av prosjektet, og resultatet ble en helaften med forskjellige innslag: sang, monologer, dikt, dans og utdrag fra kjente verk. Høsten 2015 satte vi opp vår første forestilling, barneteaterforestillingen <code>TÅKEFOLKET</code> av Elg Elgesem. I 2016 sto forestillingen om det usette liv i en bygård i Oslo, <code>I DE BESTE HJEM</code> av Kine Marie Øglend, på plakaten, og i 2017 ble dansedramet <code>STEGET</code> av Kine Marie Øglend og Anne-Lise Henningsen spilt.</p>
+<p><br /></p>
+<h3>STØTTES AV:</h3>
 <div class="row">
 <div class="span12 pb10 module_cont">
 <hr />
 </div>
 </div>
-<h3>Kine Marie Øglend</h3>
-<p>
-<div class="float_left" style="float: left">
-<div class="blog_post_image"><img alt="Kine Marie Øglend" src="/uploads/images/Kine.jpg" style="width:300px;margin-right:1em" title="Kine Marie Øglend" /></div>
+<div class="container">
+  <div class="content_block row no-sidebar">
+    <div class="fl-container span12">
+      <div class="row">
+        <div class="posts-block span12">
+          <div class="contentarea">
+            <div class="row">
+              <div class="span6 pb40 module_cont module_html">
+                <div class="module_content">
+                  <img src="/uploads/images/Osloteatersenter.jpg" alt="" title="" />
+                </div>
+              </div><!-- .module_cont -->
+              <div class="span6 pb40 module_cont module_html">
+                <div class="module_content">
+                  <img src="/uploads/images/Nittedalscene.jpg" alt="" title="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
 </div>
-<code>Kine Marie Øglend er skuespiller, instruktør og manusforfatter fra Stavanger. Hun er utdannet ved Nordisk Institutt for Scene og Studio (NISS), og startet Teater Åndsverk i 2014. Kine har spilt i flere teaterforestillinger, film og tv-produksjoner, og dubbet i tv-serier for barn og unge. Kine arbeider også som teaterinstruktør for Sandnes Kulturskole.</code></p>
-<p><br /></p>
-<p><code>Kontakt:</code> <br />
-<a href="www.kinemarieoglend.com">kinemarieoglend.com</a></p>
-<div style="height: 1em;" class="clear"></div>
-
-<div class="row">
-<div class="span12 pb10 module_cont">
-<hr />
-</div>
-</div>
-<h3>Anne-Marie Adriansen</h3>
-<p>
-<div class="float_right" style="float: right">
-<div class="blog_post_image"><img alt="Anne-Marie" src="/uploads/images/Anne-Marie.jpg" style="width:300px;margin-left:1em" title="Anne-Marie" /></div>
-</div>
-<code>Anne-Marie Adriansen er en skuespiller fra Stavanger. Hun er utdannet skuespiller fra Royal Conservatoire of Scotland (RCS) og Nordisk Institutt for Scene og Studio (NISS). Anne-Marie har spilt i flere teaterforestillinger, og i film- og tv-produksjoner. I tillegg har hun erfaring som manusforfatter, regissør og teaterkursholder, og studerer for tiden praktisk pedagogikk og portugisisk.</code></p>
-<p><br /></p>
-<p><code>Kontakt:</code><br />
-<a href="www.annemarieadriansen.no">annemarieadriansen.no</a><br />
-<a href="https://www.skuespillerkatalogen.no/artist/anne-marie-adriansen-1451.html?share_key=b61091651a03777c7789b5fc563683d5">skuespillerkatalogen</a></p>
-<div style="height: 1em;" class="clear"></div>
 
 <div class="row">
 <div class="span12 pb10 module_cont">
