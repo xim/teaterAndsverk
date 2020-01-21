@@ -9,6 +9,7 @@ jQuery(document).ready(function() {
 	//Iframe transparent
 	jQuery("iframe").each(function(){
 		var ifr_source = jQuery(this).attr('src');
+		if (ifr_source === undefined) return;
 		var wmode = "wmode=transparent";
 		if(ifr_source.indexOf('?') != -1) {
 		var getQString = ifr_source.split('?');

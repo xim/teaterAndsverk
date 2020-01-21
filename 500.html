@@ -23,6 +23,10 @@
     <link href="//fonts.googleapis.com/css?family=Amethysta" rel="stylesheet" type="text/css" />
     <script type="text/javascript"><!--
       document.write('<style type="text/css">body { opacity: .01 }</style>');
+        window.addEventListener('error', function(error) {
+        if (error.colno !== undefined)
+          document.getElementsByTagName('body')[0].style = "opacity: 1 !important";
+        }, true);
     --></script>
   </head>
   <body>
